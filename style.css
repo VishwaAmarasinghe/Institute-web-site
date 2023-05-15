@@ -25,7 +25,7 @@ html{
 .navbar{
     width: 100%;
     position: fixed !important;
-    background-color:#131d27 !important;
+    background-color:#202327 !important;
     z-index: 3;
 }
 .navbar-nav{
@@ -57,19 +57,21 @@ html{
 #about{
     width: 100%;
     height: auto;
-    background-color: #1e272e;
-    padding-bottom: 50px;
+    background-color: #171b1d;
+    padding-bottom: 100px;
 }
 .d-block{
     height: 100vh;
     object-fit:cover;
   }
   .img{
-    width: 400px;
-    height: 80vh;
+    width: 350px;
+    height:auto;
     position: relative;
-   top: 50px;
-    padding-bottom: 50px;
+   top: 100px;
+   right: 10px;
+   padding-bottom: 20px;
+    
  
   }
 .row ,.col{
@@ -78,6 +80,26 @@ html{
 } 
 .details-about{
 position: relative;
+right: 100px;
 color: rgb(255, 255, 255);
 padding-top: 50px;
+padding-right: 70px;
+}
+@media (max-width:992px) {
+    .img{
+        top: 50px;
+
+    }
+    .details-about{
+        padding-left: 70px;
+        position: relative;
+        right: 0px;
+    }
+}
+@media (max-width:1196px) {
+    .details-about{
+        padding-left: 70px;
+        position: relative;
+        right: 60px;
+    }  
 }
