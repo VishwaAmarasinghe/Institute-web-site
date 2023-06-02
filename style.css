@@ -226,14 +226,14 @@ margin-left: 20px;
     width: 60%;
   }
   .card-c{
-    width: 300px;
+    width: 320px;
     height: 600px;
     overflow: hidden;
     margin-top: 50px;
     background-color:#d2cfcf
   }
   .imgbox{
-    width: 300px;
+    width: 320px;
     height: 200px;
     position: relative;
     overflow: hidden;
@@ -303,4 +303,37 @@ margin-left: 20px;
   .row-of-course-card{
     margin-left: 0;
   }
+}
+.p-details{
+  width: 200px;
+  height: 200px;
+  margin: 50px;
+  font-weight: 600;
+  color: #ffffff;
+  padding-top: 30px;
+
+
+  
+}
+.p-c-d{
+  font-size: 45px;
+  font-weight: 600;
+}
+.purecounter{
+  font-size: 40px;
+}
+.progress-card{
+  width: 100%;
+  height: auto;
+  background-image: url('assets/img/img.jpg');
+  object-fit: cover;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 0px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  
+}
+.overlay{
+  background-color: #0d223462;
 }
