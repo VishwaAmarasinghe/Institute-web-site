@@ -147,7 +147,7 @@ margin-left: 20px;
     height: 100%;
     object-fit: cover;
   }
-  .card{
+  .card-s{
     width: 450px;
     height: 400px;
     background-color: #2e2e2e;
@@ -198,3 +198,88 @@ margin-left: 20px;
   .swiper-button-next , .swiper-button-prev{
     --swiper-theme-color: #b1b1b1;
   }
+  .course-title{
+    color: #ffffff;
+  }
+  .course-title hr{
+    width: 60%;
+  }
+  .card-c{
+    width: 300px;
+    height: 600px;
+    overflow: hidden;
+    margin-top: 50px;
+    background-color:#d2cfcf
+  }
+  .imgbox{
+    width: 300px;
+    height: 200px;
+    position: relative;
+    overflow: hidden;
+  }
+  .imgbox img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  .card-c .card-body{
+    padding-bottom: 0px;
+  }
+  .card-last{
+    width: 100%;
+    height: 500px;
+    background-color: #191b20;
+    margin: 0;
+    padding: 10px;
+    padding-left: 20px;
+    padding-top: 20px;
+    color: #fff;
+    font-size: 15px;
+    
+  }
+  .card-details{
+    position:relative;
+    display:inline-block;
+  }
+  .fa-clock{
+    color: #fff;
+    align-items: center;
+  }
+  .price-card{
+    position: relative;
+    float: right;
+    background-color: #5c58d2;
+    width: 60px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    font-size: 25px;
+    padding-left: 7px;
+    color: #ffffff;
+    font-weight: 600;
+    border-radius: 5px;
+    
+   
+    
+  }
+.card-c .card-last .btn{
+  background-color: #383d41;
+  color: #fff;
+  margin-top: 15px;
+  
+
+}
+.row-of-course-card{
+  margin-left: 50px;
+  margin-top: 60px;
+}
+.row-of-course-card .btn-light{
+  margin-top: 50px;
+  font-size: 20px;
+  font-weight: 600;
+}
+@media (max-width:992px) {
+  .row-of-course-card{
+    margin-left: 0;
+  }
+}
