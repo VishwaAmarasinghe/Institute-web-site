@@ -38,3 +38,18 @@ new PureCounter({
   currency: false,
   separator: false,
 });
+
+var swiper = new Swiper(".studentSwiper", {
+  spaceBetween: 30,
+  centeredSlides: true,
+
+  pagination: {
+    el: ".swiper-pagination",
+    clickable: true,
+  },
+  navigation: {
+    nextEl: ".swiper-button-next",
+    prevEl: ".swiper-button-prev",
+  },
+  loop:true,
+});
