@@ -732,3 +732,6 @@ margin-top: 50px;
  position: relative;
  top: 20px;
 }
+#course .card{
+  height:650px;
+}
