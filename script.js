@@ -71,3 +71,4 @@ $(function(){
 $(function(){
   $("#footer-placeholder").load("assets/placeholders/footer.html");
 });
+
